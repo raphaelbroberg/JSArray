@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        const foodArray = ["Pizza", "Burger", "Taco"];
+        console.log(foodArray);
+
+        const color = [];
+        color[0] = "Gul";
+        color[1] = "Grön";
+        color[2] = "Röd";
+        color[3] = "Orange";
+        color[4] = "Blå";
+        console.log(color)
+
+        color.push("Svart")
+        console.log(color);
+
+        color.splice(2, 1)
+        console.log(color);
+
+        var swedishCities = ["Stockholm", "Göteborg", "Malmö", "Uppsala", "Linköping"];
+		console.log("Svenska städer: " + swedishCities);
+
+		swedishCities.unshift("Örebro");
+		console.log(swedishCities);
+
+		swedishCities.splice(5, 1);
+		console.log(swedishCities);
+
+		swedishCities.push("Gävle");
+		console.log(swedishCities);
+
+		swedishCities.splice(0, 0, "Göteborg");
+		console.log(swedishCities);
+
+    </script>
+
+</body>
+</html>
